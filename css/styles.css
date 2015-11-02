@@ -1,0 +1,196 @@
+ul.fa li span {
+  padding: 5px;
+}
+
+div[class^="col-"] img {
+  width: 100%;
+}
+
+p, a, a:hover {
+  font-family: "Gotham-Book",sans-serif;
+  color: #5F5F5F;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+
+#home .container{
+  margin-top: 70px;
+  background-color: #948C86;
+  /*height: 750px;*/
+  height: 85vh;
+  margin-bottom: 15vh;
+}
+
+#home h1 {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+h1 {
+    font-size: 33px;
+    letter-spacing: 2px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+
+#home h2 {
+  color: #fff;
+  margin: 0 auto 125px;
+}
+
+.header-group {
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  margin-top: 24%;
+}
+
+.button {
+  background-color: #383432;
+  border-radius: 100px;
+  color: #fff;
+  display: inline-block;
+  font-family: "Gotham-Book",sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 20px 50px 18px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #FCFCFC;
+  color: #676c6f;
+  font-family: "Gotham-Book",sans-serif;
+  padding: 80px 0;
+  text-align: center;
+  width: 100%;
+}
+
+#about .container .row div:last-child{
+  padding-top: 20px;
+}
+
+#procedures .container{
+  background-color: #F8F7F6;
+}
+
+#procedures h2 {
+  color: #5F5F5F;
+  margin: 60px auto 35px;
+  padding-left: 15px;
+}
+
+#procedures .tab-content {
+  padding-top: 60px;
+}
+
+#procedures a {
+  background-color: transparent;
+}
+
+#contact .container {
+  background-color: #C0B7B0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 150px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+form {
+  background-color: #fff;
+  overflow: hidden;
+  padding: 50px;
+  width: 100%;
+}
+
+input#name,
+input#email,
+textarea#message {
+  min-height: 50px;
+  width: 100%;
+  margin: 0 7% 40px 0;
+}
+
+.nav-tabs li a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* for the navbar to collapse early*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+@media (max-width: 767px) {
+  div[class^="col-"] img {
+    width: inherit;
+  }
+
+  #procedures h2 {
+    margin-top: 30px;
+  }
+
+  #procedures li {
+    width: 33%;
+  }
+
+  #procedures .tab-content {
+    padding-top: 15px;
+  }
+
+  #procedures img {
+    max-width: 100%;
+  }
+
+  #contact .container {
+    padding:  0;
+  }
+
+  #contact .row div,
+  #contact form {
+    padding: 7% 7% 7%;
+  }
+
+  #contact .row div:last-child {
+    padding-top: 0;
+  }
+
+  #contact h2 {
+    margin-top: 0px;
+  }
+
+  footer {
+    padding: 0;
+  }
+}
