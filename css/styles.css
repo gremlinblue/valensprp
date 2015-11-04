@@ -48,14 +48,14 @@ h2 {
 
 #home h2 {
   color: #fff;
-  margin: 0 auto 125px;
+  margin: 0 auto 25vh;
 }
 
 .header-group {
   margin: auto;
   text-align: center;
   top: 50%;
-  margin-top: 24%;
+  margin-top: 18vh;
 }
 
 .button {

@@ -152,12 +152,12 @@
 								</ol>
 							</div>
 							<div class="col-sm-6 text-center">
-								<img src="images/baldy.gif"/>
+								<img src="images/crappy_face.jpg"/>
 							</div>
 						</div>
 		        <div class="tab-pane fade" id="C">
 							<div class="col-sm-4 text-center">
-								<img src="images/crappy_face.jpg"/>
+								<img src="images/baldy.gif"/>
 							</div>
 							<div class="col-sm-8">
 								<p><strong>Hair Loss Enhancement</strong></p>
