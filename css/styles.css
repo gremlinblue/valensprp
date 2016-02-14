@@ -136,6 +136,16 @@ textarea#message {
   text-overflow: ellipsis;
 }
 
+#procedures ol li {
+  width: 100%;
+}
+
+@media (max-width: 1198px) {
+  #procedures li {
+    width: 20%;
+  }
+ }
+
 /* for the navbar to collapse early*/
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-collapse.collapse {
@@ -159,10 +169,6 @@ textarea#message {
 
   #procedures h2 {
     margin-top: 30px;
-  }
-
-  #procedures li {
-    width: 33%;
   }
 
   #procedures .tab-content {
